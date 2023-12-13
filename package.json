@@ -1,5 +1,6 @@
 {
   "name": "react-dark-theme-context",
+  "version": "1.0.0",
   "packageManager": "yarn@4.0.2",
   "description": "Tools to detect, switch and save dark theme for react applications",
   "author": "Vadim Taits <taizvadim@gmail.com>",
@@ -7,11 +8,14 @@
   "homepage": "https://github.com/vtaits/react-dark-theme-context",
   "keywords": [
     "react",
-    "modal",
     "theme",
     "switch",
     "switching",
-    "dark"
+    "dark",
+    "prefers",
+    "color",
+    "scheme",
+    "prefers-color-scheme"
   ],
   "files": [
     "dist"

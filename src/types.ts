@@ -10,7 +10,7 @@ export type ContextValue = Readonly<{
 	 */
 	displayTheme: DisplayTheme;
 	/**
-	 * Theme that setted. Can be `no-preference` for automatical detection
+	 * Theme that currently setted. Can be `no-preference` for automatical detection
 	 */
 	theme: ThemeType;
 	/**
