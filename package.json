@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "react-dark-theme-context",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tools to detect, switch and save dark theme for react applications",
   "author": "Vadim Taits <taizvadim@gmail.com>",
   "repository": "git@github.com:vtaits/react-dark-theme-context.git",
