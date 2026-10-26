@@ -1,9 +1,13 @@
-import type { ReactElement } from "react";
-import { type ThemeType, useTheme } from "..";
+import { useTheme } from "../index.js";
 
-const themes: readonly ThemeType[] = ["no-preference", "light", "dark"];
+/**
+ * @import { ThemeType } from "../index.js"
+ */
 
-export function Simple(): ReactElement {
+/** @type {readonly ThemeType[]} */
+const themes = ["no-preference", "light", "dark"];
+
+export function Simple() {
 	const { displayTheme, setTheme, theme } = useTheme();
 
 	return (

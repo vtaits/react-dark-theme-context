@@ -14,9 +14,7 @@ import { ThemeProvider } from "react-dark-theme-context";
 
 // ...
 
-<ThemeProvider>
-  {yourReactApplication}
-</ThemeProvider>
+<ThemeProvider>{yourReactApplication}</ThemeProvider>;
 ```
 
 ### Props
@@ -35,11 +33,7 @@ import { useTheme } from "react-dark-theme-context";
 
 // ...
 
-const {
-  displayTheme,
-  setTheme,
-  theme,
-} = useTheme();
+const { displayTheme, setTheme, theme } = useTheme();
 ```
 
 - **displayTheme** - `"dark" | "light"` - Theme that currently displayed.
